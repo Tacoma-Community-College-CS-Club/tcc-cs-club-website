@@ -22,6 +22,12 @@
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<a href="/about">Projects</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<a href="/about">About</a>
+			</li>
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">Test</a>
 			</li>
@@ -64,7 +70,7 @@
 		height: 2em;
 		object-fit: contain;
 	}
-
+	
 	nav {
 		display: flex;
 		justify-content: center;
