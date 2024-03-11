@@ -4,13 +4,17 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>TCC CS Club</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <section>
 	<h1>
-		Welome to the TCC Computer Science Club website!
+		Welcome to the TCC Computer Science Club website!
+	</h1>
+
+	<h1 class="text-3xl font-bold">
+		Hello world!
 	</h1>
 </section>
 
@@ -18,7 +22,7 @@
 	section {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: top;
 		align-items: center;
 		flex: 0.6;
 	}
