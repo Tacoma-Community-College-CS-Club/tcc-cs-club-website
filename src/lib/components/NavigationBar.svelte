@@ -6,33 +6,31 @@
 	import night_icon from '$lib/images/night.svg';
 </script>
 
-<header>
-	<!-- <div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>-->
-
-	<nav>
-		<ul>
-			<!-- Only the href changes the link; aria-current is for accessibility/cosmetic current page indicators -->
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
-				<a href="/projects">Projects</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">Schedule</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined}>
-				<a href="/blog">Test</a>
-			</li>
-		</ul>
-	</nav>
-</header>
+<nav>
+	<ul>
+		<!-- Only the href changes the link; aria-current is for accessibility/cosmetic current page indicators -->
+		<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+			<a href="/">Home</a>
+		</li>
+		<li aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
+			<a href="/projects">Projects</a>
+		</li>
+		<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+			<a href="/about">Schedule</a>
+		</li>
+		<li aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined}>
+			<a href="/blog">Test</a>
+		</li>
+	</ul>
+</nav>
 
 <style>
+	@media screen and (max-width: 768px) {
+		nav a {
+			font-size: 2vw; /* Adjust as needed */
+		}
+	}	
+
 	header {
 		/* display: flex; */
 		/* justify-content: center; */
@@ -112,6 +110,7 @@
 		color: var(--color-text-dark);
 		font-weight: 700;
 		font-size: 0.8rem;
+		font-family: "DM Sans";
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
