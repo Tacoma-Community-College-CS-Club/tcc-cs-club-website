@@ -1,10 +1,12 @@
 <script>
+	import Header from '$lib/components/Header.svelte';
 	import NavigationBar from '$lib/components/NavigationBar.svelte';
 	import './styles.css';
   	import "../app.css";
 </script>
 
 <div class="app">
+	<Header/>
 	<NavigationBar />
 
 	<main>
