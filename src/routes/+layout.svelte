@@ -12,7 +12,7 @@
 	</main>
 
 	<footer>
-		<p>This website is not affiliated with Tacoma Community College.</p>
+		<p>This website is <b>NOT</b> affiliated with Tacoma Community College. The logo is used for pre-production descriptive purposes.</p>
 	</footer>
 </div>
 
@@ -38,8 +38,9 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		text-align: center;
 		align-items: center;
-		padding: 12px;
+		padding: 20px;
 	}
 
 	footer a {

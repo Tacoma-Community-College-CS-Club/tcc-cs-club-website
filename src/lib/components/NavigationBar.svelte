@@ -4,8 +4,6 @@
 
 	import day_icon from '$lib/images/day.svg';
 	import night_icon from '$lib/images/night.svg';
-
-	import github from '$lib/images/github.svg';
 </script>
 
 <header>
@@ -32,18 +30,12 @@
 			</li>
 		</ul>
 	</nav>
-
-<!--<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
-		</a>
-	</div> -->
 </header>
 
 <style>
 	header {
-		display: flex;
-		justify-content: center;
+		/* display: flex; */
+		/* justify-content: center; */
 	}
 
 	.corner {
@@ -66,8 +58,9 @@
 	}
 	
 	nav {
-		display: flex;
-		justify-content: center;
+		/* display: flex; */
+		/* justify-content: center; */
+		width: 100%;
 		--background: rgba(10, 10, 10, 0.5);
 	}
 
