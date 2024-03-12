@@ -1,15 +1,19 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/tcc_grayscale.svg';
+
+	import day_icon from '$lib/images/day.svg';
+	import night_icon from '$lib/images/night.svg';
+
 	import github from '$lib/images/github.svg';
 </script>
 
 <header>
-	<div class="corner">
+	<!-- <div class="corner">
 		<a href="https://kit.svelte.dev">
 			<img src={logo} alt="SvelteKit" />
 		</a>
-	</div>
+	</div>-->
 
 	<nav>
 		<ul>
@@ -26,9 +30,6 @@
 			<li aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined}>
 				<a href="/blog">Test</a>
 			</li>
-			<li>
-				<p>Dark/Light theme</p>
-			</li>
 		</ul>
 	</nav>
 
@@ -42,7 +43,7 @@
 <style>
 	header {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	.corner {

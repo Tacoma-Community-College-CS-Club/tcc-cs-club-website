@@ -1,18 +1,18 @@
 <script>
-	import Header from '$lib/components/Header.svelte';
+	import NavigationBar from '$lib/components/NavigationBar.svelte';
 	import './styles.css';
   	import "../app.css";
 </script>
 
 <div class="app">
-	<Header />
+	<NavigationBar />
 
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>This website is not affiliated with Tacoma Community College.</p>
 	</footer>
 </div>
 

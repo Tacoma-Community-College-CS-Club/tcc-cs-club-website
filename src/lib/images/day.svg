@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="day.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.0208096"
+     inkscape:cx="115.30032"
+     inkscape:cy="101.93934"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1"
+       style="fill:#f9f9f9;stroke-width:0.264583"
+       d="M 33.884624 1.4813681 L 26.530035 12.4099 L 13.601625 9.8829225 L 16.128602 22.811332 L 5.2000704 30.165922 L 16.128602 37.520512 L 13.601625 50.448922 L 26.530035 47.921944 L 33.884624 58.850476 L 41.239214 47.921944 L 54.167624 50.448922 L 51.640647 37.520512 L 62.569179 30.165922 L 51.640647 22.811332 L 54.167624 9.8829225 L 41.239214 12.4099 L 33.884624 1.4813681 z M 33.884624 14.873832 A 15.292141 15.292141 0 0 1 49.176714 30.165922 A 15.292141 15.292141 0 0 1 33.884624 45.458012 A 15.292141 15.292141 0 0 1 18.592535 30.165922 A 15.292141 15.292141 0 0 1 33.884624 14.873832 z M 33.884624 18.28086 A 11.885086 11.885086 0 0 0 21.999562 30.165922 A 11.885086 11.885086 0 0 0 33.884624 42.050985 A 11.885086 11.885086 0 0 0 45.769687 30.165922 A 11.885086 11.885086 0 0 0 33.884624 18.28086 z "
+       transform="translate(-0.01795781,3.7007445)" />
+  </g>
+</svg>
