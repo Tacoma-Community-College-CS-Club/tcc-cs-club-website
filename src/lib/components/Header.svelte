@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
+	import logo from '$lib/images/tcc_grayscale.svg';
 	import github from '$lib/images/github.svg';
 </script>
 
@@ -13,11 +13,12 @@
 
 	<nav>
 		<ul>
+			<!-- Only the href changes the link; aria-current is for accessibility/cosmetic current page indicators -->
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">Projects</a>
+			<li aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
+				<a href="/projects">Projects</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">Schedule</a>
@@ -25,14 +26,17 @@
 			<li aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined}>
 				<a href="/blog">Test</a>
 			</li>
+			<li>
+				<p>Dark/Light theme</p>
+			</li>
 		</ul>
 	</nav>
 
-	<div class="corner">
+<!--<div class="corner">
 		<a href="https://github.com/sveltejs/kit">
 			<img src={github} alt="GitHub" />
 		</a>
-	</div>
+	</div> -->
 </header>
 
 <style>
@@ -42,8 +46,8 @@
 	}
 
 	.corner {
-		width: 3em;
-		height: 3em;
+		width: 2em;
+		height: 2em;
 	}
 
 	.corner a {
@@ -67,8 +71,8 @@
 	}
 
 	svg {
-		width: 2em;
-		height: 3em;
+		width: 1em;
+		height: 1em;
 		display: block;
 	}
 
