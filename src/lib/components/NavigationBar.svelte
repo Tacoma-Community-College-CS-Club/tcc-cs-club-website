@@ -18,8 +18,8 @@
 		<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 			<a href="/about">Schedule</a>
 		</li>
-		<li aria-current={$page.url.pathname.startsWith('/blog') ? 'page' : undefined}>
-			<a href="/blog">Test</a>
+		<li aria-current={$page.url.pathname.startsWith('/contact') ? 'page' : undefined}>
+			<a href="/contact">Contact</a>
 		</li>
 	</ul>
 </nav>
@@ -90,6 +90,11 @@
 		height: 100%;
 	}
 
+	/* Color the current item with the theme color. */
+	li[aria-current='page'] a { 
+		color: var(--color-theme-1);
+	}
+
 	li[aria-current='page']::before {
 		--size: 6px;
 		content: '';
@@ -109,7 +114,7 @@
 		padding: 0 0.5rem;
 		color: var(--color-text-dark);
 		font-weight: 700;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		font-family: "DM Sans";
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
