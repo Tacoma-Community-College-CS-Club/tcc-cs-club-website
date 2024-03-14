@@ -1,6 +1,9 @@
 <script lang="ts">
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+
+	// Project card:
+	import ProjectCard from '$lib/components/ProjectCard.svelte';
 </script>
 
 <svelte:head>
@@ -9,13 +12,16 @@
 </svelte:head>
 
 <section>
-	<h1>
-		Welcome to the TCC Computer Science Club website!
+	<h1 class="text-3xl font-bold">
+		Welcome
 	</h1>
 
-	<h1 class="text-3xl font-bold">
-		Hello world!
-	</h1>
+	<div class="grid-container">
+		<div class="grid-item"><ProjectCard/></div>
+		<div class="grid-item"><ProjectCard/></div>
+		<div class="grid-item"><ProjectCard/></div>
+		<div class="grid-item"><ProjectCard/></div>
+	</div>
 </section>
 
 <style>
@@ -45,5 +51,10 @@
 		height: 100%;
 		top: 0;
 		display: block;
+	}
+
+	.grid-item {
+  		grid-column: 1 / 3;
+  		grid-row: 1;
 	}
 </style>
