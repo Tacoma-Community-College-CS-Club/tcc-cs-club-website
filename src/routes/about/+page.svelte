@@ -4,5 +4,5 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>About</h1>
+	<h1>The club </h1>
 </div>
