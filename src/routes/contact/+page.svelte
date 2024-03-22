@@ -11,6 +11,6 @@
 
 <div class="text-column">
 	<h1>The club </h1>
-    <ProfilePicture src='$lib/images/profile_pictures/testpic.png'/>
+    <ProfilePicture src='$lib/images/profile_pictures/testpic.webp'/>
 
 </div>
