@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>TCC CS Club</title>
+	<title>Home - TCC CS Club</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 

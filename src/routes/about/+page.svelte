@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>About - TCC CS Club</title>
+	<meta name="description" content="About the club" />
 </svelte:head>
 
 <div class="text-column">

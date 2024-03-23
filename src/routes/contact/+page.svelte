@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-    <title>About</title>
-    <meta name="description" content="About this app" />
+    <title>Contact - TCC CS Club</title>
+    <meta name="description" content="Contact club membership"/>
 </svelte:head>
 
 <div class="container">
