@@ -9,43 +9,67 @@
 </svelte:head>
 
 <div class="container">
-    <div class="contact-container">
-        <div class="profile-picture">
-            <ProfilePicture src={test_profile_picture}/>
-        </div>
-        <ul class="contact-info">
-            <li><strong>John Smith</strong></li>
-            <li><i>Club President</i></li>
-        </ul>
-    </div>
+	<div class="contact-grid">
 
-    <div class="contact-container">
-        <div class="profile-picture">
-            <ProfilePicture src={test_profile_picture}/>
-        </div>
-        <ul class="contact-info">
-            <li><strong>John Smith</strong></li>
-            <li><i>Vice President</i></li>
-        </ul>
-    </div>
+		<div class="contact-item">
+			<div class="profile-picture">
+				<ProfilePicture src={test_profile_picture}/>
+			</div>
+			<ul class="contact-info">
+				<li><strong>John Smith</strong></li>
+				<li><i>Club President</i></li>
+			</ul>
+		</div>
+
+		<div class="contact-item">
+			<div class="profile-picture">
+				<ProfilePicture src={test_profile_picture}/>
+			</div>
+			<ul class="contact-info">
+				<li><strong>John Smith</strong></li>
+				<li><i>Vice President</i></li>
+			</ul>
+		</div>
+
+	</div>
 </div>
 
 <style>
     .container {
         display: flex;
-        flex-direction: column; /* Stack items vertically */
-        justify-content: top; /* Horizontally center contents */
-        align-items: center; /* Vertically center contents */
-        height: 100vh; /* Set height to full viewport height */
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;
+        height: 100vh;
     }
 
-    .contact-container {
-        display: flex;
-        align-items: center; /* Vertically align items */
-        margin-bottom: 20px; /* Adjust spacing between contact containers */
+	.contact-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(30px, 1fr));
+        gap: 10px;
     }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+		flex-direction: column;
+    }
+
+	.contact-info {
+		padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+
+	.contact-info li {
+		margin-bottom: 1px;
+	}
 
     .profile-picture {
-        margin-right: 10px; /* Adjust spacing between profile picture and info */
+        margin-right: 0px;
     }
 </style>
