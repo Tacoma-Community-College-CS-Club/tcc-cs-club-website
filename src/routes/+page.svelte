@@ -15,13 +15,6 @@
 	<h1 class="text-3xl font-bold">
 		Welcome
 	</h1>
-
-	<div class="grid-container">
-		<div class="grid-item"><ProjectCard/></div>
-		<div class="grid-item"><ProjectCard/></div>
-		<div class="grid-item"><ProjectCard/></div>
-		<div class="grid-item"><ProjectCard/></div>
-	</div>
 </section>
 
 <style>
