@@ -45,7 +45,7 @@
 
 	.contact-grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(30px, 1fr));
+        grid-template-columns: repeat(1, minmax(30px, 1fr));
         gap: 10px;
     }
 
@@ -53,7 +53,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 10px;
-		flex-direction: column;
+		/* flex-direction: column; */
     }
 
 	.contact-info {
@@ -70,6 +70,6 @@
 	}
 
     .profile-picture {
-        margin-right: 0px;
+        margin-right: 10px;
     }
 </style>

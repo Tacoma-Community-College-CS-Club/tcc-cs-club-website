@@ -13,8 +13,11 @@
 
 <section>
 	<h1 class="text-3xl font-bold">
-		Welcome
+		Welcome to the TCC Computer Science Club website!
 	</h1>
+	<p>
+		We are a group of students at Tacoma Community College building software and eating synthetic hamburgers made of Welsh beans!
+	</p>
 </section>
 
 <style>
@@ -27,6 +30,7 @@
 	}
 
 	h1 {
+		font-family: "DM Sans";
 		width: 100%;
 	}
 
