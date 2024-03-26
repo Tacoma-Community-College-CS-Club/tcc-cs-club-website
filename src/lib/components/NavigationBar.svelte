@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/tcc_grayscale.svg';
+	import menu_icon from '$lib/images/mobile_menu.svg';
 
 	import day_icon from '$lib/images/day.svg';
 	import night_icon from '$lib/images/night.svg';
@@ -23,6 +24,7 @@
 			<a href="/contact">Contact</a>
 		</li>
 	</ul>
+	<img src={menu_icon} class="menu-icon">
 </nav>
 
 <style>
@@ -35,6 +37,7 @@
 		display: flex;
 		justify-content: left;
 		width: 100%;
+		height: 3.5em;
 		background: var(--color-gradient-default);
 		border-bottom: 1px solid #282828;
 	}
@@ -56,7 +59,6 @@
 		position: relative;
 		padding: 0;
 		margin: 0;
-		height: 3.5em;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -74,18 +76,6 @@
 	li[aria-current='page'] a { 
 		color: var(--color-theme-1);
 	}
-
-	/* li[aria-current='page']::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
-	} */
 
 	nav a {
 		display: flex;
@@ -106,17 +96,24 @@
 		color: var(--color-theme-1);
 	}
 
+	.menu-icon {
+		display: none;
+		cursor: pointer;
+	}
+
 	/* Mobile styling, when under a certain viewport width. */
 	/* Playing with the values */
 	@media screen and (max-width: 768px) {
+		.menu-icon {
+			display: block;
+			cursor: pointer;
+		}
 		nav {
-			justify-content: center;
-		}
-		nav a {
-			text-transform: lowercase;
-		}
-		ul {
 			height: 4.5em
+		}
+		/* Hide navbar elements in mobile */
+		ul {
+			display: none;
 		}
 	}
 </style>
