@@ -36,6 +36,7 @@
 		justify-content: left;
 		width: 100%;
 		background: var(--color-gradient-default);
+		border-bottom: 1px solid #282828;
 	}
 
 	img {
