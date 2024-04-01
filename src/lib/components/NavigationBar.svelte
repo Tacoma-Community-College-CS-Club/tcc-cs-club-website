@@ -1,10 +1,9 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/tcc_grayscale.svg';
-	import menu_icon from '$lib/images/mobile_menu.svg';
+	import color_logo from '$lib/images/tcc.svg';
 
-	import day_icon from '$lib/images/day.svg';
-	import night_icon from '$lib/images/night.svg';
+	import menu_icon from '$lib/images/mobile_menu.svg';
 </script>
 
 <nav>
@@ -35,7 +34,7 @@
 	
 	nav {
 		display: flex;
-		justify-content: left;
+		justify-content: center;
 		width: 100%;
 		height: 3.5em;
 		background: var(--color-gradient-default);
@@ -109,6 +108,7 @@
 			cursor: pointer;
 		}
 		nav {
+			justify-content: left;
 			height: 4.5em
 		}
 		/* Hide navbar elements in mobile */

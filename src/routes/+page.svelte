@@ -4,6 +4,7 @@
 
 	// Project card:
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
+    import LandingCard from '$lib/components/LandingCard.svelte';
 </script>
 
 <svelte:head>
@@ -18,6 +19,7 @@
 	<p>
 		We are a group of students at Tacoma Community College building software and eating synthetic hamburgers made of Welsh beans!
 	</p>
+	<LandingCard/>
 </section>
 
 <style>
