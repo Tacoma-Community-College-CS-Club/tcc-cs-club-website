@@ -19,7 +19,9 @@
 	<p>
 		We are a group of students at Tacoma Community College building software and eating synthetic hamburgers made of Welsh beans!
 	</p>
-	<LandingCard/>
+
+	<!-- Hold off on landing cards, we may want to put featured projects here. -->
+	<!-- <LandingCard/> -->
 </section>
 
 <style>

@@ -1,11 +1,12 @@
 <script>
-
+    export let title = "Default Project"; // First, last name for initials if image is unavailable or cannot be loaded
+    export let slug = "/";
 </script>
 
 <!-- Rob: I'm using Tailwind here to add a shadow using the "shadow-lg" property. -->
-<div class="card-body shadow-lg">
-    <h1 class="font-bold text-3xl">Example Project</h1>
-</div>
+<a class="card-body shadow-lg" href={slug}>
+    <h1 class="font-bold text-3xl">{title}</h1>
+</a>
 
 <style>
     .card-body {
@@ -13,9 +14,12 @@
         width: 450px;
         height: 250px;
         border-width: 2px;
-        border-color: #a39a9a;
+        border-color: var(--color-border);
         border-radius: 20px;
-        background-image: --color-basic-gradient;
+        background-color: var(--color-bg-1); /* Replace with project cover image (background-image) */
+
+        transition: transform .2s, border-color .3s; /* Animate size & border color */
+        transition-timing-function: ease;
     }
 
     .card-body[data-theme="dark"] {
@@ -23,9 +27,29 @@
         width: 450px;
         height: 250px;
         border-width: 2px;
-        border-color: #a39a9a;
+        border-color: var(--color-border);
         border-radius: 20px;
         background-image: --color-basic-gradient;
+    }
+
+    .card-body:hover {
+        transform: scale(1.02);
+        border-color: var(--color-theme-1);
+    }
+
+    a:link { 
+        text-decoration: none;
+    }
+
+    a:visited { 
+        text-decoration: none; 
+    }
+
+    a:hover { 
+        text-decoration: none; 
+    } 
+    a:active { 
+        text-decoration: none; 
     }
 
     h1 {

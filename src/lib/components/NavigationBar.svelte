@@ -36,9 +36,9 @@
 		display: flex;
 		justify-content: center;
 		width: 100%;
-		height: 3.5em;
+		height: 4em;
 		background: var(--color-gradient-default);
-		border-bottom: 1px solid #282828;
+		border-bottom: 1px solid var(--color-border);
 	}
 
 	img {
