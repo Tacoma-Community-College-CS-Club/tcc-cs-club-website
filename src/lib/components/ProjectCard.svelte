@@ -13,23 +13,13 @@
         margin: 10px;
         width: 450px;
         height: 250px;
-        border-width: 2px;
+        border-width: 1px;
         border-color: var(--color-border);
-        border-radius: 20px;
+        border-radius: 0px;
         background-color: var(--color-bg-1); /* Replace with project cover image (background-image) */
 
         transition: transform .2s, border-color .3s; /* Animate size & border color */
         transition-timing-function: ease;
-    }
-
-    .card-body[data-theme="dark"] {
-        margin: 10px;
-        width: 450px;
-        height: 250px;
-        border-width: 2px;
-        border-color: var(--color-border);
-        border-radius: 20px;
-        background-image: --color-basic-gradient;
     }
 
     .card-body:hover {
