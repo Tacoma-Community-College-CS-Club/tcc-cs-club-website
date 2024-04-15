@@ -10,8 +10,10 @@
 <style>
     .card-body {
         margin: 10px;
-        width: 450px;
-        height: 250px;
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        min-width: 250px;
+        min-height: 300px;
         border-width: 1px;
         border-color: var(--color-border);
         border-radius: 0px;
