@@ -12,8 +12,8 @@
         margin: 10px;
         width: calc(100% - 20px);
         height: calc(100% - 20px);
-        min-width: 250px;
-        min-height: 300px;
+        min-width: 200px;
+        min-height: 200px;
         border-width: 1px;
         border-color: var(--color-border);
         border-radius: 0px;

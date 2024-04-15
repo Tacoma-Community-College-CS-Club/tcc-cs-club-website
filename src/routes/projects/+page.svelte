@@ -35,13 +35,15 @@
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Use auto-fill to create as many columns as possible with a minimum width of 300px */
         grid-template-rows: auto;
         justify-content: center;
-        gap: 2em; /* Gap between project cards */
+        gap: 0em; /* Gap between project cards */
+        padding: 2em;
     }
 
     @media screen and (max-width: 768px) {
         /* For screens smaller than 768px (mobile), switch to single column layout */
         .projects-container {
             grid-template-columns: 1fr; /* Single column */
+            padding: 0;
         }
     }
 </style>
