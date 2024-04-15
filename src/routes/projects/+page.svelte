@@ -31,6 +31,11 @@
         padding: 1em;
         size: 2em;
     }
+
+    p {
+        text-align: center;
+    }
+
     .projects-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Use auto-fill to create as many columns as possible with a minimum width of 300px */
