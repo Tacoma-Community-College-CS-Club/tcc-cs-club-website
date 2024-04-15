@@ -26,10 +26,6 @@
 import path from "path";
 
 export const load = async ({ params }) => {
-    // const projects_directory = 
-    
-    
-
     if (params.slug === 'hello-world') {
 		return {
 			title: 'Example project',

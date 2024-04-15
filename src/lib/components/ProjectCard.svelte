@@ -3,9 +3,8 @@
     export let slug = "/";
 </script>
 
-<!-- Rob: I'm using Tailwind here to add a shadow using the "shadow-lg" property. -->
 <a class="card-body shadow-lg" href={slug}>
-    <h1 class="font-bold text-3xl">{title}</h1>
+    <h1 class="text-2xl">{title}</h1>
 </a>
 
 <style>
@@ -17,6 +16,10 @@
         border-color: var(--color-border);
         border-radius: 0px;
         background-color: var(--color-bg-1); /* Replace with project cover image (background-image) */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         transition: transform .2s, border-color .3s; /* Animate size & border color */
         transition-timing-function: ease;

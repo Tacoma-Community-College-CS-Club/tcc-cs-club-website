@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/tcc_grayscale.svg';
+	import logo_dark from '$lib/images/tcc_grayscale_dark.svg';
 	import color_logo from '$lib/images/tcc.svg';
 
 	import menu_icon from '$lib/images/mobile_menu.svg';
@@ -36,7 +37,7 @@
 		display: flex;
 		justify-content: center;
 		width: 100%;
-		height: 4em;
+		height: 3.5em;
 		background: var(--color-gradient-default);
 		border-bottom: 1px solid var(--color-border);
 	}
