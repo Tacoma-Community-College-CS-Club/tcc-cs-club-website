@@ -3,7 +3,7 @@
     export let slug = "/";
 </script>
 
-<a class="card-body shadow-lg" href={slug}>
+<a class="card-body" href={slug}>
     <h1 class="text-2xl">{title}</h1>
 </a>
 
