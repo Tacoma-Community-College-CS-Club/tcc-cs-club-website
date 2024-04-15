@@ -8,7 +8,9 @@
 </script>
 
 <nav>
-	<img src={logo} alt="Club logo">
+	<div class="left-container">
+		<img src={logo} alt="Club logo">
+	</div>
 	<ul>
 		<!-- Only the href changes the link; aria-current is for accessibility/cosmetic current page indicators -->
 		<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
@@ -24,7 +26,9 @@
 			<a href="/contact">Contact</a>
 		</li>
 	</ul>
-	<img src={menu_icon} class="menu-icon">
+	<div class="right-container">
+		<img src={menu_icon} class="menu-icon">
+	</div>
 </nav>
 
 <style>
@@ -41,6 +45,16 @@
 		background: var(--color-gradient-default);
 		border-bottom: 1px solid var(--color-border);
 	}
+
+	.left-container,
+    .right-container {
+        display: flex;
+        align-items: center;
+    }
+
+	.right-container {
+        margin-left: auto;
+    }
 
 	img {
 		width: 2.5em;
