@@ -9,11 +9,17 @@
 </svelte:head>
 
 <div class="page-body">
-    <h1>Projects</h1>
+    <h1 class="text-3xl font-bold">
+        Featured Club Projects
+    </h1>
+    <p>
+        This page features projects that club members have been working on!
+    </p>
     <div class="projects-container">
         {#each data.pages as page}
-		<!-- <a href="/projects/{page.slug}">{page.title}</a><br> -->
+            <div class="project-card">
             <ProjectCard title={page.title} slug="projects/{page.slug}"/>
+            </div>
 	    {/each}
     </div>
 </div>
@@ -21,16 +27,15 @@
 <style>
     h1 {
         font-weight: bold;
+        font-family: "DM Sans";
         size: 2em;
     }
     .projects-container {
         display: grid;
-        /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); Two columns, each with a minimum width of 300px */
-        grid-template-columns: 400px 400px 100px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Use auto-fill to create as many columns as possible with a minimum width of 300px */
         grid-template-rows: auto;
-        
         justify-content: center;
-        gap: 4em; /* Gap between project cards */
+        gap: 2em; /* Gap between project cards */
     }
 
     @media screen and (max-width: 768px) {
