@@ -50,6 +50,6 @@
     h1 {
         margin: auto;
         color: --color-text;
-        font-family: "Inter";
+        font-family: "DM Sans";
     }
 </style>

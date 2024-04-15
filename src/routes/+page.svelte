@@ -35,6 +35,7 @@
 
 	h1 {
 		font-family: "DM Sans";
+		padding: 1em;
 		width: 100%;
 	}
 

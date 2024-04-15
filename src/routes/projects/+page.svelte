@@ -28,6 +28,7 @@
     h1 {
         font-weight: bold;
         font-family: "DM Sans";
+        padding: 1em;
         size: 2em;
     }
     .projects-container {
