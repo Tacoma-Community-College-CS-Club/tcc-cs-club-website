@@ -1,6 +1,8 @@
 <script>
 	import ProjectCard from "$lib/components/ProjectCard.svelte";
     export let data;
+
+    import test_image from '$lib/images/placeholder/cover.webp';
 </script>
 
 <svelte:head>
@@ -18,7 +20,7 @@
     <div class="projects-container">
         {#each data.pages as page}
             <div class="project-card">
-            <ProjectCard title={page.title} slug="projects/{page.slug}"/>
+            <ProjectCard title={page.title} slug="projects/{page.slug}" img={test_image}/>
             </div>
 	    {/each}
     </div>
