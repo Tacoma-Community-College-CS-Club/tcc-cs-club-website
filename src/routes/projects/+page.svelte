@@ -1,5 +1,5 @@
 <script>
-	import ProjectCard from "$lib/components/ProjectCard.svelte";
+    import ProjectCard from "$lib/components/ProjectCard.svelte";
     export let data;
 
     import test_image from '$lib/images/placeholder/cover.webp';
@@ -20,9 +20,9 @@
     <div class="projects-container">
         {#each data.pages as page}
             <div class="project-card">
-            <ProjectCard title={page.title} slug="projects/{page.slug}" img={test_image}/>
+            <ProjectCard title={page.title} slug="projects/{page.slug}" img={test_image} author={page.author}/>
             </div>
-	    {/each}
+        {/each}
     </div>
 </div>
 

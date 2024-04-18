@@ -1,23 +1,17 @@
 ---
-title: "Awesome App"
-date: "2024-04-01"
-updated: "2024-04-01"
+title: Example Project
+description: An example application that does stuff!
+author: Example Exampleton
+date: 2024-04-12
+layout: project
+project_type: "app"
 platforms: ["android", "windows", "linux"]
-cover_image: "cover.webp"
-screenshots: ["screenshot1.webp", "screenshot2.webp", "screenshot3.webp"]
-blurb: "A cool app with cool stuff in it"
-ext_link: "https://www.google.com/"
+links: ["https://www.github.com/torvalds/linux/"]
 ---
 
-# This is an awesome app!
-This app is designed for Windows, Linux, and Android devices!
-It's an application!
-Imagine this application and then use it!
+# About
+Example Project is a multiplatform application build for Windows, Linux, and Android, made in Ruby/SDL2.
 
-<!--
-<script>
-    <Carousel/>
-</script>
--->
+This is an example project and does not exist; see that I have linked to a completely unrelated topic.
 
-It was real!
+Component test:

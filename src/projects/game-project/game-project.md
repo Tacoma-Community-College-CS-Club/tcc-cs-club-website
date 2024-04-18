@@ -1,11 +1,11 @@
 ---
 title: Awesome Project
-excerpt: "An awesome application that does stuff!"
-author: John Doe
+description: An awesome application that does stuff!
+author: Markonovich Russell
 date: 2024-04-12
 layout: project
-project-type: game
-platform-type: ["android", "windows", "linux"]
+project_type: "app"
+platforms: ["android", "windows", "linux"]
 links: ["https://www.github.com/torvalds/linux/"]
 ---
 
