@@ -18,6 +18,14 @@ git clone https://github.com/Tacoma-Community-College-CS-Club/tcc-cs-club-websit
 cd tcc-cs-club-website
 ```
 
+Once you are in the project directory, you will most likely need to install dependencies for the site.
+You can install them using `npm ci`, or `npm clean-install`.
+```bash
+npm clean-install
+```
+
+It is often necessary to clean install.
+
 Then run `npm run dev` to start a local server and test the website:
 ```bash
 npm run dev
