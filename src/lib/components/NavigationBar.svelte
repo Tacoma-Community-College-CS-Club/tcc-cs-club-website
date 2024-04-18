@@ -25,6 +25,9 @@
 		<li aria-current={$page.url.pathname.startsWith('/contact') ? 'page' : undefined}>
 			<a href="/contact">Contact</a>
 		</li>
+		<li aria-current={$page.url.pathname.startsWith('/club-materials') ? 'page' : undefined}>
+			<a href="/club-materials">Club Materials</a>
+		</li>
 	</ul>
 	<div class="right-container">
 		<img src={menu_icon} class="menu-icon">

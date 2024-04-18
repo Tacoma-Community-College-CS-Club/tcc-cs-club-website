@@ -26,11 +26,9 @@
 import path from "path";
 
 export const load = async ({ params }) => {
-    if (params.slug === 'hello-world') {
-		return {
-			title: 'Example project',
-            languages: ['ruby', 'c++'],
-			content: 'Welcome to our blog. Lorem ipsum dolor sit amet...'
-		};
-	}
+    
+
+    return {
+        
+    };
 }
