@@ -21,7 +21,7 @@
 	</p>
 
 	<!-- Hold off on landing cards, we may want to put featured projects here. -->
-	<!-- <LandingCard/> -->
+	<LandingCard/>
 </section>
 
 <style>
