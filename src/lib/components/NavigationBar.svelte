@@ -7,7 +7,7 @@
 	import menu_icon from '$lib/images/mobile_menu.svg';
 </script>
 
-<nav>
+<nav class="shadow-md">
 	<div class="left-container">
 		<img src={logo} alt="Club logo">
 	</div>

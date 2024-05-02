@@ -7,7 +7,7 @@
     export let img; // Image source prop
 </script>
 
-<a class="card-body" href={slug}>
+<a class="card-body shadow-lg" href={slug}>
     <div class="card-image-container">
         <img src={img} alt="{title}" class="card-image">
     </div>
