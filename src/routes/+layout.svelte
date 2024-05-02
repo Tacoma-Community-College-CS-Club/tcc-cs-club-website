@@ -6,6 +6,7 @@
 </script>
 
 <div class="app">
+	<Header />
 	<NavigationBar />
 
 	<main>

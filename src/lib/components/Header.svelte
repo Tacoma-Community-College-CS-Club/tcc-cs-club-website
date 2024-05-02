@@ -5,17 +5,14 @@
 </script>
 
 <header>
-    <a href="/">
-        <img src={logo} alt="TCC Logo"/>
-    </a>
 
 </header>
 
 <style>
     header {
         width: 100%;
-        height: 4em;
-        background-color: rgba(10, 10, 10, 0.5);
+        height: 0.6em;
+        background-image: var(--color-navbar-gradient)
     }
 
     img {

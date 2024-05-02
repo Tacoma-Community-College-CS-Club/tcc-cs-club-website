@@ -5,6 +5,7 @@
 	// Project card:
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
     import LandingCard from '$lib/components/LandingCard.svelte';
+	import Header from '$lib/components/Header.svelte';
 </script>
 
 <svelte:head>
