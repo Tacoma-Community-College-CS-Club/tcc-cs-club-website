@@ -1,7 +1,7 @@
 ---
-title: Awesome Project
-description: An awesome application that does stuff!
-author: Markonovich Russell
+title: Video Game
+description: CS 142 project
+author: Claudio Unkrich
 date: 2024-04-12
 layout: project
 project_type: "app"
