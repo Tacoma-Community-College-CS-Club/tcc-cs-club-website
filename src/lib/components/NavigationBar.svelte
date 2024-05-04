@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/tcc_grayscale.svg';
-	import logo_dark from '$lib/images/tcc_grayscale_dark.svg';
+	import logo from '$lib/images/logo/tcc_cs_club_logo.svg';
+	import logo_dark from '$lib/images/logo/tcc_cs_club_logo_dark.svg';
 	import color_logo from '$lib/images/tcc.svg';
 
 	import menu_icon from '$lib/images/mobile_menu.svg';
@@ -9,7 +9,7 @@
 
 <nav class="shadow-md">
 	<div class="left-container">
-		<img src={logo} alt="Club logo">
+		<img src={logo_dark} alt="Club logo">
 	</div>
 	<ul>
 		<!-- Only the href changes the link; aria-current is for accessibility/cosmetic current page indicators -->
@@ -60,8 +60,8 @@
     }
 
 	img {
-		width: 2.5em;
-		height: 2.5em;
+		/* width: 2.5em; */
+		height: 3em;
 		margin-left: 1em;
 		margin-right: 1em;
 		display: flex;
